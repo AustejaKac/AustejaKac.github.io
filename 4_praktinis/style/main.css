@@ -1,9 +1,7 @@
 html, body {
     font-family: "Roboto", sans-serif;
     background-color:#006CBE;
-    margin: 0;
-    
-    
+    margin: 0; 
 }
 
 html{
@@ -20,16 +18,16 @@ header
 */
 
 #header {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 .logo{
     width: 15%;
 }
 .icon{
-    width: 35%;
+    width: 15%;
     background-image: url(../img/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -37,13 +35,13 @@ header
     height: 80px;
 }
 .navigation {
-    width: 50%;
+    width: 60%;
 }
  
 .logo {
 float: left;
 color: #FFFFFF;
-padding: 1em 0 3em 0;
+padding: 1em 2em 3em 2em;
 }
 
 .logo h1 {
@@ -141,6 +139,20 @@ gyventojams puslapis
     padding-bottom: 1em;
 }
 
+#map-people-pop iframe{
+    width: 1000px;
+    height: 700px;
+    border: 0;
+    position: relative; top: 0em; left: 15em; right: 15em;
+}
+
+#map-people-pop h3{
+    text-align: center;
+    clear: both;
+    padding-bottom: 1em;
+}
+
+
 /*
 Mygtuku stilius (apibreztas kvadrateliu)
 */
@@ -158,8 +170,9 @@ intro su paveiksleliu
 
 #intro{
     height: 600px;
+    width: auto;
     background-image: url(../img/monika-kabise-IAMJXWBLFmk-unsplash.jpg);
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     clear: both;
     margin-top: 10px;
@@ -172,19 +185,20 @@ color:white ;
 font-size: 5em;
 text-align: center;
 padding-top: 2.5em;
+
 }
 
 .intro-text p{
     color:white ;
     font-size: 1.5em;
     text-align: center;
-    
+
     }
 
 #about-text{
     text-align: center;
     padding: 5em 0 5em 0;
-    margin: 3em 0;
+    
     
 }
 
@@ -208,11 +222,36 @@ padding-top: 2.5em;
     font-size: 1.5em;
 }
 
+#goal{
+    text-align: center;
+    padding: 3em 0 3em 0;
+    margin-bottom: 5em;
+}
+
+#goal h4 {
+    font-size: 1.5em;
+}
+
+#goal p {
+    font-size: 1.5em;
+}
+.btn-scnd{
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.btn-scnd:hover{
+    background-color: #195F95;
+}
+
 /*
 footer
 */
 #footer {
-    width: auto;
+    width: 100%;
     margin-top: 2em;
     padding: 2em 1em 0em 1em;
     /* padding-left: 3em; */
@@ -222,7 +261,7 @@ footer
     
 }
 .footer-main{
-    width: 30%;
+    width: 12%;
     color: #FFFFFF;
 }
 
@@ -236,7 +275,9 @@ footer
 .footer-main p {
     margin: 0em;
     letter-spacing: 0em;
+    text-align: center;
 }
+
 
 .footer-social h5{
     font-size: 1em;
@@ -244,35 +285,28 @@ footer
     letter-spacing: normal;
     margin: 0em;
 }
-.footer-meniu h4{
-    font-size: 1em;
-    text-align: right;
-    letter-spacing: normal;
-    margin: 0em;
-}
+
 
 .footer {
     float: left;
     
      }   
 
-     .footer-social{
-            text-align: center;
-            color: grey;
-            letter-spacing: 1.5em;
-            font-size: 1em;
-        
+.footer-social{
+    width: 48%;
+        text-align: center;
+        color: grey;
+        letter-spacing: 1.5em;
+        font-size: 1em;
     
      }
-     .intro-icon{
+.intro-icon{
         height: 1.5em;
         width: 1.5em;
         margin-left: 1.5em;
-        
-        
-        
+           
      }
 
-     .intro-icon:hover{
+.intro-icon:hover{
         color: white;
     }
