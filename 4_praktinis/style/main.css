@@ -25,6 +25,9 @@ header
 
 .logo{
     width: 15%;
+    float:left;
+    color: #FFFFFF;
+    padding: 1em 0em 3em 2em;
 }
 .icon{
     width: 15%;
@@ -36,12 +39,7 @@ header
 }
 .navigation {
     width: 60%;
-}
- 
-.logo {
-float: left;
-color: #FFFFFF;
-padding: 1em 2em 3em 2em;
+    padding-right: 20px;
 }
 
 .logo h1 {
@@ -50,7 +48,7 @@ margin: 0;
 }
 .logo p {
     margin: 0;
-    text-align: center;
+    padding-left: 32px;
 }
 
 .logo h1{
@@ -79,14 +77,20 @@ pranesk puslapis
     width: 1000px;
     height: 700px;
     border: 0;
-    position: relative; top: 0em; left: 15em;
+    position: relative; top: 0em; left: 16em;
 }
 
 #map-notification h3{
     text-align: center;
     clear: both;
-    padding-bottom: 1em;
 }
+
+#map-notification p{
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+
+    }
 
 /*
 statistika puslapis
@@ -96,7 +100,7 @@ statistika puslapis
     width: 1000px;
     height: 700px;
     border: 0;
-    position: relative; top: 0em; left: 15em;
+    position: relative; top: 0em; left: 16em;
 }
 
 #map-statistic h3{
@@ -113,14 +117,19 @@ aplinka puslapis
     width: 1000px;
     height: 700px;
     border: 0;
-    position: relative; top: 0em; left: 15em;
+    position: relative; top: 0em; left: 16em;
 }
 
 #map-environmental h3{
     text-align: center;
     clear: both;
-    padding-bottom: 1em;
 }
+
+#map-environmental p{
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    }
 
 /*
 gyventojams puslapis
@@ -130,27 +139,37 @@ gyventojams puslapis
     width: 1000px;
     height: 700px;
     border: 0;
-    position: relative; top: 0em; left: 15em;
+    position: relative; top: 0em; left: 16em;
 }
 
 #map-people h3{
     text-align: center;
     clear: both;
-    padding-bottom: 1em;
 }
+
+#map-people p{
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    }
 
 #map-people-pop iframe{
     width: 1000px;
     height: 700px;
     border: 0;
-    position: relative; top: 0em; left: 15em; right: 15em;
+    position: relative; top: 0em; left: 16em;
 }
 
 #map-people-pop h3{
     text-align: center;
     clear: both;
-    padding-bottom: 1em;
 }
+
+#map-people-pop p{
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    }
 
 
 /*
@@ -253,7 +272,7 @@ footer
 #footer {
     width: 100%;
     margin-top: 2em;
-    padding: 2em 1em 0em 1em;
+
     /* padding-left: 3em; */
     background-color: #0c2a41;
     color: #FFFFFF;
@@ -261,8 +280,10 @@ footer
     
 }
 .footer-main{
-    width: 12%;
+    padding-top: 16px;
+    padding-bottom: 16px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .footer-main h1 {
@@ -275,7 +296,7 @@ footer
 .footer-main p {
     margin: 0em;
     letter-spacing: 0em;
-    text-align: center;
+    
 }
 
 
@@ -293,7 +314,7 @@ footer
      }   
 
 .footer-social{
-    width: 48%;
+    
         text-align: center;
         color: grey;
         letter-spacing: 1.5em;
@@ -303,7 +324,6 @@ footer
 .intro-icon{
         height: 1.5em;
         width: 1.5em;
-        margin-left: 1.5em;
            
      }
 
