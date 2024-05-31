@@ -106,7 +106,13 @@ statistika puslapis
 #map-statistic h3{
     text-align: center;
     clear: both;
-    padding-bottom: 1em;
+}
+
+#map-statistic p{
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0em 3em 1em 3em;
 }
 
 /*
@@ -171,6 +177,27 @@ gyventojams puslapis
     text-align: center;
     }
 
+/*
+kontaktu puslapis
+*/
+    #contacts-main h3{
+        text-align: center;
+        clear: both;
+        margin-bottom: 1em;
+    }
+
+    #contacts-main p{
+        color: #000000;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #contacts-main div {
+        color: #000000;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+
 
 /*
 Mygtuku stilius (apibreztas kvadrateliu)
@@ -211,12 +238,12 @@ padding-top: 2.5em;
     color:white ;
     font-size: 1.5em;
     text-align: center;
-
+    padding: 0em 3em 1em 3em;
     }
 
 #about-text{
     text-align: center;
-    padding: 5em 0 5em 0;
+    padding: 5em 3em 1em 3em;
     
     
 }
@@ -266,6 +293,7 @@ padding-top: 2.5em;
     background-color: #195F95;
 }
 
+
 /*
 footer
 */
@@ -297,6 +325,14 @@ footer
     margin: 0em;
     letter-spacing: 0em;
     
+}
+
+.footer-date p{
+        text-align: center;
+        color: grey;
+        letter-spacing: 3px;
+        font-size: 1em;
+        margin-bottom: 0;
 }
 
 
